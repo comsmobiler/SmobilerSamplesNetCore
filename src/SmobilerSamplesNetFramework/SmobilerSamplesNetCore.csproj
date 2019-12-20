@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp3.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="frmGenerateQRcode.cs" />
+    <Compile Remove="frmGenerateQRcode.Designer.cs" />
+    <Compile Remove="frmHelp.cs" />
+    <Compile Remove="frmHelp.Designer.cs" />
+    <Compile Remove="frmMain.cs" />
+    <Compile Remove="frmMain.Designer.cs" />
+    <Compile Remove="frmSetting.cs" />
+    <Compile Remove="frmSetting.Designer.cs" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="frmGenerateQRcode.resx" />
+    <EmbeddedResource Remove="frmHelp.resx" />
+    <EmbeddedResource Remove="frmMain.resx" />
+    <EmbeddedResource Remove="frmSetting.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Smobiler.Core">
+      <HintPath>C:\Program Files (x86)\Smobiler Designer\LibraryCore\Smobiler.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Smobiler.Core.Windows">
+      <HintPath>C:\Program Files (x86)\Smobiler Designer\LibraryCore\Smobiler.Core.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Smobiler.Core.Controls">
+      <HintPath>C:\Program Files (x86)\Smobiler Designer\LibraryCore\Smobiler.Core.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

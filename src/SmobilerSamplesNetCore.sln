@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmobilerSamplesNetFramework", "SmobilerSamplesNetFramework\SmobilerSamplesNetFramework.csproj", "{116366C4-78C5-42CC-8D95-19F8A8D04D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmobilerSamplesNetCore", "SmobilerSamplesNetCore\SmobilerSamplesNetCore.csproj", "{F5D96B03-9DF0-4A09-B194-77CAF628D68F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{116366C4-78C5-42CC-8D95-19F8A8D04D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116366C4-78C5-42CC-8D95-19F8A8D04D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116366C4-78C5-42CC-8D95-19F8A8D04D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116366C4-78C5-42CC-8D95-19F8A8D04D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D96B03-9DF0-4A09-B194-77CAF628D68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D96B03-9DF0-4A09-B194-77CAF628D68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D96B03-9DF0-4A09-B194-77CAF628D68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D96B03-9DF0-4A09-B194-77CAF628D68F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {273F1832-B374-4E8E-9F13-79F6AD634882}
+	EndGlobalSection
+EndGlobal

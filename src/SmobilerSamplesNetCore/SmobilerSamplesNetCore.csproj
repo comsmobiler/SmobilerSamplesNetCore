@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\SmobilerSamplesNetFramework\MobileGlobal.cs" Link="MobileGlobal.cs" />
+    <Compile Include="..\SmobilerSamplesNetFramework\SmobilerForm1.cs" Link="SmobilerForm1.cs" />
+    <Compile Include="..\SmobilerSamplesNetFramework\SmobilerForm1.Designer.cs" Link="SmobilerForm1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Smobiler.Core">
+      <HintPath>C:\Program Files (x86)\Smobiler Designer\LibraryCore\Smobiler.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Smobiler.Core.Windows">
+      <HintPath>C:\Program Files (x86)\Smobiler Designer\LibraryCore\Smobiler.Core.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Smobiler.Core.Controls">
+      <HintPath>C:\Program Files (x86)\Smobiler Designer\LibraryCore\Smobiler.Core.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
