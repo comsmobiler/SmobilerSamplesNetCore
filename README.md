@@ -1,0 +1,2 @@
+# SmobilerSamplesNetCore
+Smobiler Samples .NetCore
